@@ -1,0 +1,149 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+  margin-top: 100px;
+}
+  
+ 
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  /* CSS cho thẻ input */
+  .search-bar {
+   
+    margin: 0 20px; /* Add some spacing */
+    position: relative;
+  }
+
+  .input-container {
+  position: relative;
+  }
+
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px; 
+  }
+  .search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+  }
+  svg {
+  fill: #888; 
+  }
+  .search-button {
+   padding: 10px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+
+
+  .search-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right:100%;
+  }
+
+  .search-button:hover {
+  background-color: #0097a7;
+  }
+  .user-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .user-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+
+  /* CSS cho thẻ card */
+
+
+
+
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+
+
+
+  swiper 
+  .swiper-container {
+    margin-top: 150px; /* Adjust the margin-top for better alignment */
+  border-radius: 10px; /* Reduce the border-radius to make it more compact */
+  overflow: hidden;
+  width: 90%; /* Adjust the width for better responsiveness */
+  max-width: 600px; /* Set a smaller max-width for a more compact appearance */
+  margin: 50px auto; /* Center the swiper container */
+  }
+
+  .swiper-slide {
+   
+    width: 90%; /* Adjust the width for better responsiveness */
+    margin: 0 auto;
+  }
+.swiper-button-prev{
+  margin-top:  auto;
+}
+.swiper-button-next{
+  margin-top:  auto;
+}
+  .card {
+    border: none;
+    border-radius: 10px; /* Decrease the border radius of the card for a more compact appearance */
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Decrease the box shadow for a lighter effect */
+  }
+
+  .card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px; /* Ensure consistency by matching the border radius with the card */
+    border-top-right-radius: 10px; /* Ensure consistency by matching the border radius with the card */
+    max-height: 150px; /* Limit the max-height of the image for a compact look */
+  }
+
+  .card h3 {
+    padding: 10px; /* Reduce padding for a more compact appearance */
+    color: #333;
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+  .card p {
+    padding: 0 10px 10px 10px; /* Adjust padding for a more compact appearance */
+    color: #666;
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  

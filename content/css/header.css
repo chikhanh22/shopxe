@@ -1,0 +1,117 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+  margin-top: 100px;
+}
+  
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+
+  /* CSS cho thẻ input */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 ;
+    max-width: 500px; /* adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-container {
+  position: relative;
+  }
+
+  .search-input {
+    border: none;
+    background: none;
+    flex: 1;
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  cursor: pointer;
+  }
+  svg {
+  fill: #888; 
+  }
+  .search-button {
+    background: none;
+    border: none;
+    color: #a7097a;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+
+  .search-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right:8%;
+  }
+
+  .search-button:hover {
+    color: #5c1446; 
+  }
+  .user-icons {
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .user-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  /* CSS cho thẻ card */
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+ /* //////////////////////////////////////////// */
+ .cart {
+  margin-right: 20px;
+  position: relative;
+}
+.cart a {
+  text-decoration: none;
+  color: #000; /* Màu của biểu tượng giỏ hàng */
+}
+.bi-cart-check::before {
+  content: "\f091"; /* Unicode cho biểu tượng giỏ hàng (có thể thay đổi để thích hợp với biểu tượng của bạn) */
+  font-family: "bootstrap-icons"; /* Sử dụng font chữ chứa biểu tượng giỏ hàng */
+  font-size: 24px; /* Kích cỡ của biểu tượng giỏ hàng */
+}
+  
+
+
+
+  
